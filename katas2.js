@@ -2,7 +2,8 @@
 function add (a,b){
     return a + b
 }
-add (3,5)
+console.log("Function Add ") 
+console.log(add (3,5))
 // descomente a linha seguinte para testar sua função
 console.assert(add(3, 5) === 8, 'A função add não está funcionando como esperado');
 
@@ -15,7 +16,8 @@ function multiply (a ,b){
     return product
 
 }
-multiply(4,6)
+console.log("Function multiply ") 
+console.log(multiply(4,6))
 // descomente a linha seguinte para testar sua função
 console.assert(multiply(4, 6) === 24, 'A função multiply não está funcionando como esperado');
 
@@ -28,7 +30,8 @@ function power (x ,n ){
     }
     return powerT
 } 
- power(3,4)
+console.log("Function Power ") 
+console.log(power(3,4))
 // descomente a linha seguinte para testar sua função
 console.assert(power(3, 4) === 81, 'A função power não está funcionando como esperado');
 
@@ -44,7 +47,8 @@ function factorial (x) {
 }
    return factRes
 }
-factorial (5)
+console.log("Function Factorial") 
+console.log(factorial (5))
 // descomente a linha seguinte para testar sua função
  console.assert(factorial(5) === 120, 'A função factorial não está funcionando como esperado');
 
@@ -64,7 +68,8 @@ factorial (5)
         return fibTabble[n]
 
     }
-    fibonacci(7)                                                 
+    console.log("Function Fibonacci") 
+    console.log(fibonacci(7))                                                
 // descomente a linha seguinte para testar sua função
 console.assert(fibonacci(7) === 13, 'A função fibonacci não está funcionando como esperado');
 
