@@ -58,7 +58,7 @@ console.log(factorial (5))
  */
 
 // crie a função fibonacci
-     function fibonacci (n){
+     function fibonacci (n){ 
         let fibTabble = [0]  
         let fibIncremento = 1 
         for (let index = 0; index <= n ; index = add(index,1)){ 
